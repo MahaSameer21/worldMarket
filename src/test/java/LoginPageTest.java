@@ -49,9 +49,7 @@ public class LoginPageTest {
         ZipUSA.sendKeys(TestData.UserData.ZipUSA);
         boolean checkedAcceptEmailSubscription = AcceptEmailSubscription.isSelected();
         System.out.println(checkedAcceptEmailSubscription);
-//        BaseTest.wait.until(ExpectedConditions.elementToBeClickable(sendFormButton));
-////        BaseTest.wait.until(ExpectedConditions.elementToBeClickable(sendFormButton));
-//        sendFormButton.click();
+
 //        BaseTest.wait.until(ExpectedConditions.visibilityOf(successLabel));
 //        Assert.assertEquals(successLabel.getText(),TestData.NewSpecialistData.successMessage);
     }

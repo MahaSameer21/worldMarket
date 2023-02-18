@@ -4,8 +4,8 @@
     <test name="flow1">
         <classes>
             <class name="IndexPageTest"></class>
-            <class name="CoffeeTableCategoryTest"></class>
             <class name="LoginPageTest"></class>
+            <class name="CoffeeTableCategoryTest"></class>
             <class name="ShopNowTest"></class>
         </classes>
     </test>
