@@ -4,7 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a9bc734-1b36-44b5-a4b5-044d27a479fb" name="Changes" comment="1st worldmarket testing" />
+    <list default="true" id="4a9bc734-1b36-44b5-a4b5-044d27a479fb" name="Changes" comment="1st worldmarket testing">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ShopNowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopNowTest.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -91,11 +94,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="IndexPageTest.verifyThatSearchBox" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ShopNowTest.verifyIncreaseButtonISCDisplay" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="worldmarket-Automation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="IndexPageTest" />
-      <option name="METHOD_NAME" value="verifyThatSearchBox" />
+      <option name="MAIN_CLASS_NAME" value="ShopNowTest" />
+      <option name="METHOD_NAME" value="verifyIncreaseButtonISCDisplay" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -105,11 +108,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ShopNowTest.verifyIncreaseButtonISCDisplay" />
         <item itemvalue="TestNG.CoffeeTableCategoryTest.verifyThatCloseButtonIsClickable" />
         <item itemvalue="TestNG.CoffeeTableCategoryTest.verifyTitleIsEqual" />
         <item itemvalue="TestNG.IndexPageTest" />
         <item itemvalue="TestNG.IndexPageTest.verifyCoffeeTableCategoryIsClickable" />
-        <item itemvalue="TestNG.IndexPageTest.verifyThatSearchBox" />
       </list>
     </recent_temporary>
   </component>
@@ -143,7 +146,21 @@
       <option name="project" value="LOCAL" />
       <updated>1676750886646</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="1st worldmarket testing">
+      <created>1676751256564</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1676751256564</updated>
+    </task>
+    <task id="LOCAL-00005" summary="1st worldmarket testing">
+      <created>1676751274911</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1676751274911</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

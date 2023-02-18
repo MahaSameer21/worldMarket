@@ -14,7 +14,7 @@ public class ShopNowTest {
     WebElement CloseModalButton;
     @BeforeClass
     public void setUp(){
-        driver=  baseTest.setUp("https://www.worldmarket.com/");
+        driver=  baseTest.setUp("https://www.worldmarket.com");
     }
 
     @Test(enabled = false)
@@ -34,7 +34,7 @@ public class ShopNowTest {
         BaseTest.chromeDriver.manage().deleteAllCookies();
         ShopNowBtn.click();
     }
-    @Test(priority = 4)
+    @Test(priority = 5)
     public void verifyChooseOptionsButtonISClickable() {
         WebElement ChooseOptionsBtn = driver.findElement(By.xpath("//*[@id='ml_anchor_btn_448628']"));
            BaseTest.wait.until(ExpectedConditions.elementToBeClickable(ChooseOptionsBtn));
@@ -42,10 +42,22 @@ public class ShopNowTest {
         ChooseOptionsBtn.click();
     }
     @Test(priority = 4)
-    public void verifyIncreaseButtonISCDisplay() {
-        WebElement IncreaseBtn = driver.findElement(By.xpath(  "//div[@id='home_topnav_layout_15_fillslot-7']/a/div"));
-       assertTrue(IncreaseBtn.isDisplayed());
+    public void verifyVasesBtnIsClickable() {
+        WebElement VasesBtn = driver.findElement(By.xpath("//a[@title='Shop Vases']"));
+           BaseTest.wait.until(ExpectedConditions.elementToBeClickable(VasesBtn));
+        BaseTest.chromeDriver.manage().deleteAllCookies();
+        VasesBtn.click();
     }
 
 
-}
+//    @Test(priority = 4)
+//    public void verifyIncreaseButtonISCDisplay() {
+//        WebElement IncreaseBtn = driver.findElement(By.xpath("//*[@id='mainForm']/div[2]/div/div[2]/div[13]/div[1]/div[1]/div[2]/span[2]/div/div/span[2]/button"));
+//       assertTrue(IncreaseBtn.isDisplayed());
+//   }
+  //  @Test(priority = 4)
+   // public void verifyIncreaseButtonISCDisplay() {
+       // WebElement IncreaseBtn = driver.findElement(By.xpath("//button[@name='addToBasket']"));
+      // assertTrue(IncreaseBtn.isDisplayed());
+    }
+
