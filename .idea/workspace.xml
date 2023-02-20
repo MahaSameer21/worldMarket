@@ -4,13 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="4a9bc734-1b36-44b5-a4b5-044d27a479fb" name="Changes" comment="2nd worldmarket testing">
-      <change afterPath="$PROJECT_DIR$/src/test/java/ModalTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/LoginPageTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/ShopNowTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ShopNowTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
-    </list>
+    <list default="true" id="4a9bc734-1b36-44b5-a4b5-044d27a479fb" name="Changes" comment="1st worldmarket testing" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -49,17 +43,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="TestNG.C:/Users/محمد/IdeaProjects/worldmarket-Automation/testng.xml">
-    <configuration name="C:/Users/محمد/IdeaProjects/worldmarket-Automation/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="worldmarket-Automation" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager">
     <configuration name="CoffeeTableCategoryTest.verifyThatCloseButtonIsClickable" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="worldmarket-Automation" />
       <option name="PACKAGE_NAME" value="" />
@@ -84,11 +68,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopNowTest.verifyIncreaseButtonISCDisplay" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IndexPageTest" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="worldmarket-Automation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShopNowTest" />
-      <option name="METHOD_NAME" value="verifyIncreaseButtonISCDisplay" />
+      <option name="MAIN_CLASS_NAME" value="IndexPageTest" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="IndexPageTest.verifyCoffeeTableCategoryIsClickable" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="worldmarket-Automation" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="IndexPageTest" />
+      <option name="METHOD_NAME" value="verifyCoffeeTableCategoryIsClickable" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -96,11 +91,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShopNowTest.verifyThatSizeSectionForItemIsDisplayed" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="IndexPageTest.verifyThatSearchBox" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="worldmarket-Automation" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="ShopNowTest" />
-      <option name="METHOD_NAME" value="verifyThatSizeSectionForItemIsDisplayed" />
+      <option name="MAIN_CLASS_NAME" value="IndexPageTest" />
+      <option name="METHOD_NAME" value="verifyThatSearchBox" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -110,11 +105,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.C:/Users/محمد/IdeaProjects/worldmarket-Automation/testng.xml" />
-        <item itemvalue="TestNG.ShopNowTest.verifyThatSizeSectionForItemIsDisplayed" />
-        <item itemvalue="TestNG.ShopNowTest.verifyIncreaseButtonISCDisplay" />
         <item itemvalue="TestNG.CoffeeTableCategoryTest.verifyThatCloseButtonIsClickable" />
         <item itemvalue="TestNG.CoffeeTableCategoryTest.verifyTitleIsEqual" />
+        <item itemvalue="TestNG.IndexPageTest" />
+        <item itemvalue="TestNG.IndexPageTest.verifyCoffeeTableCategoryIsClickable" />
+        <item itemvalue="TestNG.IndexPageTest.verifyThatSearchBox" />
       </list>
     </recent_temporary>
   </component>
@@ -148,28 +143,7 @@
       <option name="project" value="LOCAL" />
       <updated>1676750886646</updated>
     </task>
-    <task id="LOCAL-00004" summary="1st worldmarket testing">
-      <created>1676751256564</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1676751256564</updated>
-    </task>
-    <task id="LOCAL-00005" summary="1st worldmarket testing">
-      <created>1676751274911</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1676751274911</updated>
-    </task>
-    <task id="LOCAL-00006" summary="2nd worldmarket testing">
-      <created>1676757430739</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1676757430739</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -186,8 +160,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1st worldmarket" />
     <MESSAGE value="1st worldmarket testing" />
-    <MESSAGE value="2nd worldmarket testing" />
-    <option name="LAST_COMMIT_MESSAGE" value="2nd worldmarket testing" />
+    <option name="LAST_COMMIT_MESSAGE" value="1st worldmarket testing" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
